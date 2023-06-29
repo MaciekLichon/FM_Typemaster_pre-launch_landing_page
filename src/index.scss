@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+    body {
+        @apply font-barlow font-regular text-regular text-primary-500;
+    }
+    h1 {
+        @apply text-header_big_mob lg:text-header_big;
+    }
+    h2 {
+        @apply text-header_medium;
+    }
+    h3 {
+        @apply text-header_small;
+    }
+    .header {
+        @apply uppercase font-black text-primary-600;
+    }
+    .btn {
+        @apply uppercase font-bold text-regular rounded-lg transition duration-300 ease-linear py-2.5 px-3.5 md:py-4 md:px-[26px];
+        &-orange {
+            @apply text-primary-100 bg-accent hover:bg-accentHover;
+        }
+        &-gray {
+            @apply text-primary-600 bg-primary-200 hover:bg-primary-600 hover:text-primary-100;
+        }
+    }
+    .flex {
+        &-centered {
+            @apply flex items-center justify-center;
+        }
+        &-between {
+            @apply flex items-center justify-between;
+        }
+    }
+    .floating-accent {
+        @apply block absolute w-[255px] h-[240px] bg-primary-200 rounded-20;
+    }
+}
