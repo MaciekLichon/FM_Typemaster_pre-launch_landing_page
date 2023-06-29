@@ -19,7 +19,7 @@
         @apply uppercase font-black text-primary-600;
     }
     .btn {
-        @apply uppercase font-bold text-regular rounded-lg transition duration-300 ease-linear py-2.5 px-3.5 md:py-4 md:px-[26px];
+        @apply uppercase font-bold text-regular rounded-lg transition duration-300 ease-linear py-2.5 px-3.5 md:px-[26px] md:py-4;
         &-orange {
             @apply text-primary-100 bg-accent hover:bg-accentHover;
         }
