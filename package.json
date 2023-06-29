@@ -1,6 +1,6 @@
 {
   "name": "typemaster",
-  "himepage": "https://macieklichon.github.io/FM_Typemaster_pre-launch_landing_page",
+  "homepage": "https://macieklichon.github.io/FM_Typemaster_pre-launch_landing_page",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
